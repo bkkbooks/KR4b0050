@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4b0050/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4b0050/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 齊竟陵王蕭子良集三卷
+  identifiers:
+    krp: KR4b0050
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0050.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0050_001-CHANT.yaml, hash: 'sha256:fc704ab502c615273190cc1426afd2c0ff765cb27cf88dcc0b23542472bb9d1a'}
+  - {seq: 2, filename: KR4b0050_002-CHANT.yaml, hash: 'sha256:757c958660738e33c44a93ff4b0bdde5122c9311542a8d2f5ff716d2f3d3748b'}
+  - {seq: 3, filename: KR4b0050_003-CHANT.yaml, hash: 'sha256:814ef889fbb2deb55cb2e9f8188f1a69b4044fb91c10b51188a516977d37f8ff'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0050_001-CHANT.markers.yaml, hash: 'sha256:1b0f1662fd1289098ca1ba92a2335f413cb4ca758ac371bbffb30d75afad0213'}
+  - {seq: 2, role: markers, filename: assets/KR4b0050_002-CHANT.markers.yaml, hash: 'sha256:824fbd45d9f2240b5451ec1df539de292fc30a369a0996e23e882c89da124cc1'}
+  - {seq: 3, role: markers, filename: assets/KR4b0050_003-CHANT.markers.yaml, hash: 'sha256:9f5e339209c78b7041ee2d5bccda52ed921b59a4fc7f5ba6a7a68868a4705e3e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0050_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 425
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0050_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 7132
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0050_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 17543
+  label: 附錄
+  type: section
+  level: 1
+hash: sha256:c648af123cde5ccd715dabffed9df39926da2a3da9019a81800992022c2acb75
